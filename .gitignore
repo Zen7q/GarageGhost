@@ -1,0 +1,34 @@
+# Private configuration and credentials
+firmware/GarageGhost/Config.h
+.env
+.env.*
+*.pem
+*.key
+
+# Arduino and native build products
+.build/
+build/
+*.bin
+*.elf
+*.map
+*.hex
+*.o
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Archives and local CAD work
+*.zip
+enclosure/
+cad/
+3d-models/
+*.3mf
+*.blend*
+*.step
+*.stl
+
+# Local working files
+tmp/
